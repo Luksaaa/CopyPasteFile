@@ -51,3 +51,7 @@ Uses the legacy Windows XCOPY command with standard recursive and system file fl
 
 ### 3. Python Shutil
 Uses Python's native `shutil` library. This is a platform-independent method but may be slower for large directory structures compared to native Windows tools.
+
+## License
+
+This project is for personal use and educational purposes.
