@@ -10,7 +10,11 @@ def robocopy(source, destination):
         "/E",
         "/MT:32",
         "/R:3",
-        "/W:5"
+        "/W:5",
+        "/J",
+        "/NP",
+        "/NFL",
+        "/NDL"
     ]
     subprocess.run(cmd, shell=True)
 
